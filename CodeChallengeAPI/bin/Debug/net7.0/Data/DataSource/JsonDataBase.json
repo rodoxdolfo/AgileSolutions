@@ -1,0 +1,301 @@
+ [
+    {
+      "CategoryName": "Automobiles",
+      "Products": [
+        {
+          "ProductName": "Car",
+          "Brands": [
+            {
+              "BrandName": "VW",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 1000
+                },
+                {
+                  "Month": "February",
+                  "Total": 1200
+                },
+                {
+                  "Month": "March",
+                  "Total": 900
+                },
+                {
+                  "Month": "April",
+                  "Total": 1100
+                }
+              ]
+            },
+            {
+              "BrandName": "Toyota",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 800
+                },
+                {
+                  "Month": "February",
+                  "Total": 950
+                },
+                {
+                  "Month": "March",
+                  "Total": 850
+                },
+                {
+                  "Month": "April",
+                  "Total": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ProductName": "Truck",
+          "Brands": [
+            {
+              "BrandName": "Ford",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 600
+                },
+                {
+                  "Month": "February",
+                  "Total": 700
+                },
+                {
+                  "Month": "March",
+                  "Total": 550
+                },
+                {
+                  "Month": "April",
+                  "Total": 650
+                }
+              ]
+            },
+            {
+              "BrandName": "Chevrolet",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 750
+                },
+                {
+                  "Month": "February",
+                  "Total": 900
+                },
+                {
+                  "Month": "March",
+                  "Total": 800
+                },
+                {
+                  "Month": "April",
+                  "Total": 950
+                }
+              ]
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryName": "Electronics",
+      "Products": [
+        {
+          "ProductName": "Phone",
+          "Brands": [
+            {
+              "BrandName": "Apple",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 500
+                },
+                {
+                  "Month": "February",
+                  "Total": 600
+                },
+                {
+                  "Month": "March",
+                  "Total": 550
+                },
+                {
+                  "Month": "April",
+                  "Total": 700
+                }
+              ]
+            },
+            {
+              "BrandName": "Samsung",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 450
+                },
+                {
+                  "Month": "February",
+                  "Total": 500
+                },
+                {
+                  "Month": "March",
+                  "Total": 500
+                },
+                {
+                  "Month": "April",
+                  "Total": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ProductName": "Laptop",
+          "Brands": [
+            {
+              "BrandName": "Dell",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 300
+                },
+                {
+                  "Month": "February",
+                  "Total": 350
+                },
+                {
+                  "Month": "March",
+                  "Total": 320
+                },
+                {
+                  "Month": "April",
+                  "Total": 380
+                }
+              ]
+            },
+            {
+              "BrandName": "HP",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 280
+                },
+                {
+                  "Month": "February",
+                  "Total": 320
+                },
+                {
+                  "Month": "March",
+                  "Total": 300
+                },
+                {
+                  "Month": "April",
+                  "Total": 350
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryName": "Food",
+      "Products": [
+        {
+          "ProductName": "Cereals",
+          "Brands": [
+            {
+              "BrandName": "Kelogs",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 500
+                },
+                {
+                  "Month": "February",
+                  "Total": 600
+                },
+                {
+                  "Month": "March",
+                  "Total": 550
+                },
+                {
+                  "Month": "April",
+                  "Total": 700
+                }
+              ]
+            },
+            {
+              "BrandName": "Generic",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 450
+                },
+                {
+                  "Month": "February",
+                  "Total": 550
+                },
+                {
+                  "Month": "March",
+                  "Total": 500
+                },
+                {
+                  "Month": "April",
+                  "Total": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ProductName": "Fruits",
+          "Brands": [
+            {
+              "BrandName": "Apples",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 200
+                },
+                {
+                  "Month": "February",
+                  "Total": 250
+                },
+                {
+                  "Month": "March",
+                  "Total": 300
+                },
+                {
+                  "Month": "April",
+                  "Total": 280
+                }
+              ]
+            },
+            {
+              "BrandName": "Oranges",
+              "Results": [
+                {
+                  "Month": "January",
+                  "Total": 180
+                },
+                {
+                  "Month": "February",
+                  "Total": 220
+                },
+                {
+                  "Month": "March",
+                  "Total": 200
+                },
+                {
+                  "Month": "April",
+                  "Total": 250
+                }
+              ]
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
