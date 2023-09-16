@@ -23,7 +23,7 @@ public class SalesResultController : ControllerBase
 
  
     [HttpGet]
-    public Category? Get(string categoryName, string productName, string brandName)
+    public List<MonthResult> Get(string categoryName, string productName, string brandName)
     {
         SalesResultUseCase salesResultUseCase = _IU.Resolve<SalesResultUseCase>();
         return salesResultUseCase.GetSalesResults(categoryName, productName, brandName);

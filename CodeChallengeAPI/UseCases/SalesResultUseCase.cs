@@ -12,22 +12,24 @@ namespace CodeChallengeAPI.UseCases
 			_salesRepository = salesRepository;
         }
 
-		public Category? GetSalesResults(string categoryName, string productName, string brandName)
+		public List<MonthResult> GetSalesResults(string categoryName, string productName, string brandName)
 		{
 			var categoryResults = _salesRepository.GetSalesReport();
             if (categoryResults != null)
             {
                 var result = from cat in categoryResults
+                             from prod in cat.Products
+                             from bar in prod.Brands
+                             from res in bar.Results
                              where cat.CategoryName == categoryName &&
-                                   cat.Products.Any(p =>
-                                                        p.ProductName == productName &&
-                                                        p.Brands.Any(b => b.BrandName == brandName))
-                             select cat;
+                                   prod.ProductName == productName &&
+                                   bar.BrandName == brandName
+                             select res;
 
-                return result.FirstOrDefault();
+                return result.ToList();
             }
 
-            return null;
+            return new List<MonthResult>();
 
         }
 

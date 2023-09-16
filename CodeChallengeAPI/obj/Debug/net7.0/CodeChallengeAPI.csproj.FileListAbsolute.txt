@@ -1,10 +1,3 @@
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.csproj.AssemblyReference.cache
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.GeneratedMSBuildEditorConfig.editorconfig
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.AssemblyInfoInputs.cache
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.AssemblyInfo.cs
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.csproj.CoreCompileInputs.cache
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.MvcApplicationPartsAssemblyInfo.cs
-/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.MvcApplicationPartsAssemblyInfo.cache
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/bin/Debug/net7.0/appsettings.Development.json
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/bin/Debug/net7.0/appsettings.json
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/bin/Debug/net7.0/Data/DataSource/JsonDataBase.json
@@ -21,6 +14,13 @@
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/bin/Debug/net7.0/Unity.Abstractions.dll
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/bin/Debug/net7.0/Unity.Container.dll
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.csproj.AssemblyReference.cache
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.AssemblyInfoInputs.cache
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.AssemblyInfo.cs
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.csproj.CoreCompileInputs.cache
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/CodeChallengeAPI.MvcApplicationPartsAssemblyInfo.cache
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/staticwebassets/msbuild.CodeChallengeAPI.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/staticwebassets/msbuild.build.CodeChallengeAPI.props
 /Users/rodolfocayuela/Projects/AgileSolutions/CodeChallengeAPI/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.CodeChallengeAPI.props

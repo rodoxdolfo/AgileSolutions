@@ -2,47 +2,32 @@
     ViewData["Title"] = "Sales Report";
 }
 
-@model CodeChallenge.Models.HomeViewModel
-<!-- Dropdowns -->
-<div>
-    @Html.DropDownListFor(model => model.SelectedCategory, new SelectList(Model.Categories), "Select Category", new { @class = "form-control" })
-</div>
-<div>
-    @Html.DropDownListFor(model => model.SelectedProduct, new SelectList(Model.Products), "Select Product", new { @class = "form-control" })
-</div>
-<div>
-    @Html.DropDownListFor(model => model.SelectedBrand, new SelectList(Model.Brands), "Select Brand", new { @class = "form-control" })
-</div>
 
-<!-- Chart -->
-<div>
-    <canvas id="barChart" width="400" height="200"></canvas>
-</div>
-
-<!-- Include chart.js library and your JavaScript code to render the chart -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
 <script>
-    var ctx = document.getElementById('barChart').getContext('2d');
     var chartData = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.ChartData));
-
-    var myChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: chartData.labels,
-            datasets: [{
-                label: 'Sales',
-                data: chartData.data,
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
 </script>
+
+@model CodeChallenge.Models.HomeViewModel
+<div class="container">
+    <div class="horizontal-div">
+        <div class="horizontal-div">
+            <span>Category:</span>
+            @Html.DropDownListFor(model => model.SelectedCategory, new SelectList(Model.Categories), "Select Category", new { @class = "form-control", @id = "categoryDropdown" })
+        </div>
+        <div class="horizontal-div">
+            <span>Product:</span>
+            @Html.DropDownListFor(model => model.SelectedProduct, new SelectList(Model.Products), "Select Product", new { @class = "form-control", @id = "productDropdown" })
+        </div>
+        <div class="horizontal-div">
+            <span>Brand:</span>
+            @Html.DropDownListFor(model => model.SelectedBrand, new SelectList(Model.Brands), "Select Brand", new { @class = "form-control", @id = "brandDropdown" })
+        </div>
+        </div>
+        <div>
+            <span id="spanFilters"></span>
+        </div>
+        <div>
+            <canvas id="barChart" width="400" height="200"></canvas>
+        </div>
+    </div>

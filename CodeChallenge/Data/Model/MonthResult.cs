@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CodeChallenge.Models
+namespace CodeChallenge.Data.Model
 {
 	public class MonthResult
 	{
